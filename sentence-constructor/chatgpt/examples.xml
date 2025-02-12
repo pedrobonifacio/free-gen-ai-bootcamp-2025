@@ -1,41 +1,6 @@
 <example>
     <user:input>
-        Bears are at the door, did you leave the garbage out?
-    </user:input>
-    <score>4</score>
-    <score_reasons>
-    - BAD: in the vocabulary table it did not show the japanese characters, the cells are just blank
-    - BAD: the beginner sentence is uncessary, should jsut start showing the vocabulary table
-    - BAD: In the clues we should not provide the polite form of verbs, because the student needs to figure that out.
-    - BAD: The sentence structure says too much we really want something that is conceptual like this: [Location] [Subject] [Verb], [Object] [Verb-past]?
-    </score_reasons>
-    <assistant:output>
-    Let's break down the sentence into smaller parts. Here's a possible table of vocabulary to get you started:
-
-    | Japanese | Romaji | English
-    |          | kuma	| bear |
-    |          | tobira | door |
-    |          | gomi	| garbage |
-    |          | noko	| leave behind |
-
-    Now, let's think about the sentence structure. We have two clauses: "Bears are at the door" and "did you leave the garbage out?".
-    For the first clause, we can use the verb (aru) which means "to exist" or "to be present". We'll need to figure out the correct form of the verb to use.
-    For the second clause, we can use the verb (nokosu) which is a more polite way of saying "to leave behind". Again, we'll need to figure out the correct form of the verb to use.
-
-    Here's a possible sentence structure:
-
-    [Clause 1: Bears are at the door]
-    [Subject] wa [Location] ni [Verb] desu
-    [Clause 2: did you leave the garbage out?]
-    [Verb] masu ka
-
-    Your turn! Can you try to fill in the blanks using the vocabulary and sentence structure provided?
-    </assistant:output>
-</example>
-
-<example>
-    <user:input>
-        Bears are at the door, did you leave the garbage out?
+        Did you see the raven this morning? They were looking at our garden
     </user:input>
     <score>10</score>
     <score_reasons>
@@ -44,28 +9,28 @@
     - GOOD: Clues don't give away any of the tense of conjugations
     </score_reasons>
     <assistant:output>
-    Cheatsheet:
-    | Word | Japanese | Type |
-    |------|----------|------|
-    | bear | 熊（くま） | Noun |
-    | door | ドア | Noun |
-    | garbage | ゴミ | Noun |
-    | to be (location) | いる | Intransitive Ichidan Verb |
-    | to leave | 出す（だす） | Transitive Godan Verb |
+    ## 📖 Vocabulary Table
 
-    Sentence structure:
-    [Location] [Subject] [Verb], [Object] [Verb-past]?
+    | Portuguese |	English |
+    | ver |	to see |
+    | corvo	| raven |
+    | manhã	| morning | 
+    | olhar	| to look | 
+    | jardim | garden |
+    | nosso | our |
 
-    Considerations:
-    - This is a compound sentence with two parts connected by a comma
-    - The first part is stating a location where something exists
-    - The second part is asking about a past action
+    ## 🏗 Sentence Structure
+	1.	[Subject] [Object] [Verb]?
+	2.	[Subject] [Verb] [Location].
 
-    Possible next steps:
-    - attempt an answer
-    - ask clues about location marking
-    - ask clues about how to connect two sentences
-    - ask clues about question formation
-    - ask clues about verb conjugation
+    ## 🔍 Clues and Considerations
+	•	The verb “to see” needs to be in the past tense for the question.
+	•	The question “Did you see” is usually structured differently in Portuguese, without an auxiliary verb.
+	•	“This morning” should be placed before or after the main clause.
+	•	“They were looking” suggests an ongoing action in the past. You need the correct verb tense for that.
+	•	“Our garden” includes a possessive adjective, which must agree in gender and number with “garden.”
+	•	The verb “to look” in this case is being used with a preposition, meaning “to look at something.”
+
+     Give it a try! 😊
     </assistant:output>
 </example>
